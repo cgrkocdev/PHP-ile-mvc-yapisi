@@ -1,0 +1,20 @@
+{
+    "name": "8824c/htdocs",
+    "description": "Framework for Jotform",
+    "type": "framework",
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jotform\\":"./"
+        },
+        "files" : ["Core/Helpers.php"]
+    },
+    "authors": [
+        {
+            "name": "Cagri KOC",
+            "email": "8824charlie@gmail.com"
+        }
+    ]
+}
